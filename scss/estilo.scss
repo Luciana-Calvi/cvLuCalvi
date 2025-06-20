@@ -1,0 +1,26 @@
+$orange: #ffa500;
+
+$colors: (
+  "orange": $orange,
+);
+
+body {
+  background-color: map-get($colors, "orange");
+  color: white;
+  font-family: Arial, sans-serif;
+  padding: 1rem;
+}
+
+.button {
+  background-color: map-get($colors, "orange");
+  border: none;
+  padding: 0.5rem 1rem;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darken(map-get($colors, "orange"), 10%);
+  }
+}

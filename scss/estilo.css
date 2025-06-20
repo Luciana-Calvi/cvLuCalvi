@@ -1,0 +1,19 @@
+body {
+  background-color: #ffa500;
+  color: white;
+  font-family: Arial, sans-serif;
+  padding: 1rem;
+}
+
+.button {
+  background-color: #ffa500;
+  border: none;
+  padding: 0.5rem 1rem;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #cc8400;
+}/*# sourceMappingURL=estilo.css.map */

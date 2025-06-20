@@ -1,1 +1,11 @@
 
+.info-personal {
+    text-align: left;
+  margin-left: -300px;
+  padding-left: -300px;
+  background-color: #fff9e6; /* fondo clarito pastel */
+  padding: 300px;
+  border-radius: 300px;
+  width: fit-content; /* para que no se extienda de más */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* opcional: sombra suave */
+}
